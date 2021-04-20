@@ -49,7 +49,7 @@ class _ReadWriteFilesState extends State<ReadWriteFiles> {
             child: Column(
               children: [
                 Text("Add"),
-                Text("$_localfile"),
+                Text("$_localpath"),
               ],
             ),
             onPressed: () async {
